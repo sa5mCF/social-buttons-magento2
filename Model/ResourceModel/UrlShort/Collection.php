@@ -1,6 +1,6 @@
 <?php
 
-namespace Pengo\SocialButtons\Model\ResourceModel\UrlShort;
+namespace Core\SocialButtons\Model\ResourceModel\UrlShort;
 
 class Collection extends \Magento\Framework\Model\ResourceModel\Db\Collection\AbstractCollection
 {
@@ -12,8 +12,8 @@ class Collection extends \Magento\Framework\Model\ResourceModel\Db\Collection\Ab
     protected function _construct()
     {
         $this->_init(
-            'Pengo\SocialButtons\Model\UrlShort',
-            'Pengo\SocialButtons\Model\ResourceModel\UrlShort'
+            'Core\SocialButtons\Model\UrlShort',
+            'Core\SocialButtons\Model\ResourceModel\UrlShort'
         );
     }
 }

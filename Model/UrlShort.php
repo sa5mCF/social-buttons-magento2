@@ -1,6 +1,6 @@
 <?php
 
-namespace Pengo\SocialButtons\Model;
+namespace Core\SocialButtons\Model;
 
 class UrlShort extends \Magento\Framework\Model\AbstractModel implements \Magento\Framework\DataObject\IdentityInterface
 {
@@ -12,7 +12,7 @@ class UrlShort extends \Magento\Framework\Model\AbstractModel implements \Magent
 
     protected function _construct()
     {
-        $this->_init('Pengo\SocialButtons\Model\ResourceModel\UrlShort');
+        $this->_init('Core\SocialButtons\Model\ResourceModel\UrlShort');
     }
 
     public function getIdentities()

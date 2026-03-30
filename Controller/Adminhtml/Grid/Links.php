@@ -1,7 +1,7 @@
 <?php
 
 
-namespace Pengo\SocialButtons\Controller\Adminhtml\Grid;
+namespace Core\SocialButtons\Controller\Adminhtml\Grid;
 
 class Links extends \Magento\Backend\App\Action
 {
