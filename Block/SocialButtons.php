@@ -1,6 +1,6 @@
 <?php
 
-namespace Pengo\SocialButtons\Block;
+namespace Core\SocialButtons\Block;
 
 class SocialButtons extends \Magento\Framework\View\Element\Template {
 
@@ -19,7 +19,7 @@ class SocialButtons extends \Magento\Framework\View\Element\Template {
 		\Magento\Framework\Registry $registry ,
         \Magento\Catalog\Api\ProductRepositoryInterfaceFactory $productRepositoryFactory,
         \Magento\Catalog\Helper\ImageFactory $imageHelperFactory,
-        \Pengo\SocialButtons\Model\UrlShort $urlShort,
+        \Core\SocialButtons\Model\UrlShort $urlShort,
         array $data = []
 	) {
 		parent::__construct($context, $data);

@@ -1,6 +1,6 @@
 <?php
 
-namespace Pengo\SocialButtons\Controller\Adminhtml\Grid;
+namespace Core\SocialButtons\Controller\Adminhtml\Grid;
 
 use Magento\Framework\App\Action\Action;
 use Magento\Framework\App\ResponseInterface;
@@ -10,7 +10,7 @@ class DeleteLink extends Action
 {
     public function __construct(
         \Magento\Framework\App\Action\Context $context,
-        \Pengo\SocialButtons\Model\UrlShort $urlShort,
+        \Core\SocialButtons\Model\UrlShort $urlShort,
         array $data = []
     ) {
         parent::__construct($context);
@@ -30,7 +30,7 @@ class DeleteLink extends Action
     {
         $link = $this->getRequest()->getPostValue("link");
         $objectManager = \Magento\Framework\App\ObjectManager::getInstance();
-        $customLink = $objectManager->create('Pengo\SocialButtons\Model\UrlShort');
+        $customLink = $objectManager->create('Core\SocialButtons\Model\UrlShort');
         $customLink->load($link);
         $customLink->delete();
 

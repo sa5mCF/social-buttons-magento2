@@ -1,6 +1,6 @@
 <?php
 
-namespace Pengo\SocialButtons\Model\ResourceModel;
+namespace Core\SocialButtons\Model\ResourceModel;
 
 class UrlShort extends \Magento\Framework\Model\ResourceModel\Db\AbstractDb
 {

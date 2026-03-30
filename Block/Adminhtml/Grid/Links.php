@@ -1,7 +1,7 @@
 <?php
 
 
-namespace Pengo\SocialButtons\Block\Adminhtml\Grid;
+namespace Core\SocialButtons\Block\Adminhtml\Grid;
 
 class Links extends \Magento\Backend\Block\Template
 {
@@ -14,7 +14,7 @@ class Links extends \Magento\Backend\Block\Template
      */
     public function __construct(
         \Magento\Backend\Block\Template\Context $context,
-        \Pengo\SocialButtons\Model\UrlShort $urlShort,
+        \Core\SocialButtons\Model\UrlShort $urlShort,
         array $data = []
     ) {
         parent::__construct($context, $data);

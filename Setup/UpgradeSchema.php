@@ -1,7 +1,7 @@
 <?php
 
 
-namespace Pengo\SocialButtons\Setup;
+namespace Core\SocialButtons\Setup;
 
 use Magento\Framework\Setup\UpgradeSchemaInterface;
 use Magento\Framework\Setup\ModuleContextInterface;

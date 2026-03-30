@@ -6,12 +6,12 @@
                 <resource id="Magento_Backend::stores">
                     <resource id="Magento_Backend::stores_settings">
                         <resource id="Magento_Config::config">
-                            <resource id="Pengo_SocialButtons::config" title="Extension Share Config" sortOrder="50" />
+                            <resource id="Core_SocialButtons::config" title="Extension Share Config" sortOrder="50" />
                         </resource>
                     </resource>
                 </resource>
-                <resource id="Pengo_SocialButtons::socialbuttons" sortOrder="10" title="socialbuttons">
-                    <resource id="Pengo_SocialButtons::grid_links" sortOrder="10" title="grid links"/>
+                <resource id="Core_SocialButtons::socialbuttons" sortOrder="10" title="socialbuttons">
+                    <resource id="Core_SocialButtons::grid_links" sortOrder="10" title="grid links"/>
                 </resource>
             </resource>
         </resources>
